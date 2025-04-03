@@ -5971,10 +5971,9 @@ fieldset:disabled .btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10%;
+  width: 15%;
   padding: 0;
   color: #fff;
-  background: linear-gradient(to center, #00b481, #00b4818c);
   text-align: center;
   background: 0 0;
   border: 0;

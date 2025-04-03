@@ -12,7 +12,7 @@ body {
   font-size: 16px;
 }
 .daro-main {
-  background: linear-gradient(#00b481, #00b683);
+  background: radial-gradient(#00b481, #008301);
   max-width: 100dvw;
   min-height: 100dvh;
 }
@@ -43,7 +43,9 @@ body {
   font-size: 1.5rem;
 }
 .daro-article {
+  padding: 0.5rem !important;
 }
+
 .daro-list {
   list-style: none;
 }
@@ -60,7 +62,6 @@ body {
   background: #313131;
   border-radius: 10px 100px 10px 100px;
   border: 5px solid #fff;
-  padding: 2%;
   margin: 2dvw 0;
 }
 .daro-carousel {
@@ -68,15 +69,25 @@ body {
 }
 .daro-carousel-img {
   margin: auto;
-  height: 100dvh;
+  height: 70dvh;
   display: flex;
   justify-content: center;
   border-radius: 10px 100px 10px 100px;
 }
 .daro-carousel-img img {
-  max-height: 100dvh;
+  max-height: 70dvh;
   border-radius: 10px 60px 10px 60px;
 }
-.carousel-text {
-  padding: 10%;
+@media screen and (max-width: 687px) {
+  .daro-article {
+    padding: 0.5rem 0rem !important;
+  }
+}
+@media screen and (max-width: 926px) and (orientation: landscape) {
+  .daro-carousel-img {
+    height: 100dvw;
+  }
+  .daro-carousel-img img {
+    max-height: 100dvw;
+  }
 }
