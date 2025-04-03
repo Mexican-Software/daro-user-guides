@@ -60,35 +60,23 @@ body {
   background: #313131;
   border-radius: 10px 100px 10px 100px;
   border: 5px solid #fff;
+  padding: 2%;
   margin: 2dvw 0;
 }
 .daro-carousel {
-  min-height: 80dvh;
   margin: 5dvh 0;
-  padding: 1%;
-  object-fit: cover;
-  object-position: bottom;
 }
 .daro-carousel-img {
   margin: auto;
   height: 100dvh;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px 100px 10px 100px;
 }
 .daro-carousel-img img {
-  border-radius: 10px 60px 0 0;
-  object-fit: cover;
-  object-position: bottom;
+  max-height: 100dvh;
+  border-radius: 10px 60px 10px 60px;
 }
 .carousel-text {
   padding: 10%;
-}
-@media screen and (max-width: 991px) and (orientation: landscape) {
-  .daro-carousel {
-    padding: 2%;
-  }
-  .carousel-text {
-    padding: 1%;
-  }
-  .daro-container-black {
-    padding: 6dvh 0;
-  }
 }
