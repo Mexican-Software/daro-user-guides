@@ -76,7 +76,6 @@ body {
   object-fit: cover;
   object-position: bottom;
   border-radius: 10px 60px 10px 60px;
-  max-height: 80dvh;
 }
 .carousel-text {
   padding: 10%;
