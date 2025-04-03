@@ -71,11 +71,12 @@ body {
 }
 .daro-carousel-img {
   margin: auto;
+  height: 100dvh;
 }
 .daro-carousel-img img {
+  border-radius: 10px 60px 0 0;
   object-fit: cover;
   object-position: bottom;
-  border-radius: 10px 60px 10px 60px;
 }
 .carousel-text {
   padding: 10%;
