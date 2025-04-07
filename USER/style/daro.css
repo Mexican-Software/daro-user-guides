@@ -68,6 +68,9 @@ body {
   text-shadow: 1px 1px 4px #000000;
   font-size: 1.3rem;
 }
+.daro-margin {
+  margin: 4dvh 0;
+}
 .daro-article {
   padding: 01rem !important;
 }
@@ -100,7 +103,7 @@ body {
   background-size: 20px 20px;
   border-radius: 10px 100px 10px 100px;
   border: 5px solid #fff;
-  margin: 0dvw 0;
+  margin: 5dvh 0;
   box-shadow: 0 0 10px #000;
 }
 .daro-carousel {
@@ -123,9 +126,26 @@ body {
   border: 2px solid #d3ecd9;
   border-radius: 10px 60px 10px 60px;
 }
-.fa-banktranfer {
-  font-size: 3rem;
-  color: #00ac7b;
+.carousel-arrow {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 2rem;
+  opacity: 0.5;
+}
+.carousel-arrow:hover {
+  opacity: 1;
+}
+.footer-content {
+  background-color: #006e4b;
+  color: #65e983;
+}
+.footer-link {
+  text-decoration: none;
+  color: #aee7b9;
+}
+.footer-link:hover {
+  color: #fff;
 }
 @media screen and (max-width: 687px) {
   .daro-article {
