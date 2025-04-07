@@ -6047,25 +6047,25 @@ fieldset:disabled .btn {
   transition: opacity 0.6s ease;
 }
 .carousel-indicators-1 {
-  background-color: #5cd55c;
-}
-.carousel-indicators-2 {
-  background-color: #5aaf6e;
-}
-.carousel-indicators-3 {
   background-color: #49943f;
 }
+.carousel-indicators-2 {
+  background-color: #00ac7b;
+}
+.carousel-indicators-3 {
+  background-color: #55d855;
+}
 .carousel-indicators-4 {
-  background-color: #00b683;
+  background-color: #65e983;
 }
 .carousel-indicators-5 {
-  background-color: #98ecab;
+  background-color: #00ac34;
 }
 .carousel-indicators-6 {
-  background-color: #d3ecd9;
+  background-color: #aee7b9;
 }
 .carousel-indicators-7 {
-  background-color: #9e9e9e;
+  background-color: #ffffff93;
 }
 
 @media (prefers-reduced-motion: reduce) {
