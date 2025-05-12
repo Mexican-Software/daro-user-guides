@@ -12,13 +12,13 @@ body {
   font-size: 16px;
 }
 .daro-main {
-  background: radial-gradient(#00b683, #2c7b25);
+  background: radial-gradient(#00ac34, #2c7b25);
   max-width: 100dvw;
   min-height: 100dvh;
 }
 .daro-title {
   color: #fff;
-  font-weight: bold;
+  font-weight: bolder;
   text-shadow: 1px 1px 5px #000000;
   font-size: 3rem;
 }
@@ -34,18 +34,21 @@ body {
   color: #00ac7b;
 }
 .daro-color-3 {
-  color: #55d855;
+  color: #31ac00;
 }
 .daro-color-4 {
-  color: #65e983;
+  color: #55d855;
 }
 .daro-color-5 {
-  color: #00ac34;
+  color: #65e983;
 }
 .daro-color-6 {
-  color: #aee7b9;
+  color: #00ac34;
 }
 .daro-color-7 {
+  color: #aee7b9;
+}
+.daro-color-8 {
   color: #ffffff93;
 }
 .daro-text {
@@ -94,8 +97,8 @@ body {
     repeating-linear-gradient(
       45deg,
       #2a2a2a 25%,
-      #353535 25%,
-      #353535 75%,
+      #131413 25%,
+      #131413 75%,
       #2a2a2a 75%,
       #2a2a2a
     );
@@ -138,7 +141,7 @@ body {
 }
 .footer-content {
   background-color: #006e4b;
-  color: #65e983;
+  color: #ededed;
 }
 .footer-link {
   text-decoration: none;

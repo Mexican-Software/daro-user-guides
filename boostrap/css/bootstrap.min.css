@@ -6037,8 +6037,8 @@ fieldset:disabled .btn {
 .carousel-indicators-7 {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 5px;
+  width: 40px;
+  height: 20px;
   padding: 0;
   margin-right: 2px;
   margin-left: 2px;
@@ -6058,18 +6058,21 @@ fieldset:disabled .btn {
   background-color: #00ac7b;
 }
 .carousel-indicators-3 {
-  background-color: #55d855;
+  background-color: #31ac00;
 }
 .carousel-indicators-4 {
-  background-color: #65e983;
+  background-color: #55d855;
 }
 .carousel-indicators-5 {
-  background-color: #00ac34;
+  background-color: #65e983;
 }
 .carousel-indicators-6 {
-  background-color: #aee7b9;
+  background-color: #00ac34;
 }
 .carousel-indicators-7 {
+  background-color: #aee7b9;
+}
+.carousel-indicators-8 {
   background-color: #ffffff93;
 }
 
